@@ -9,8 +9,11 @@ Technical test for a fullstack developer position.
 - Date of submission: 2023-08-13
 - Instructions to run the project:
   - Clone the repository
-  - Run `pnpm run install:backend` in the root folder
-  - Run `npm run start:backend` in the root folder
+  - Run `pnpm run install` in the root folder it will install all the dependencies in each package monorepo
+  - For local
+    - Run `pnpm run start:backend` in the root folder
+  - For docker
+    - Run `pnpm run start:backend:docker` in the root folder
   - Open `http://localhost:3000` in your postman
 - Time spent
   - 15 hours (Backend only) have not much time to do the frontend part

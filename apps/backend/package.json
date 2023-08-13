@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts",
-    "start:docker": "nodemon --exec docker-compose up --build",
+    "start:docker": "docker-compose up --build",
     "test": "jest"
   },
   "keywords": [],
