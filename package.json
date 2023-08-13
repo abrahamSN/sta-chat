@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:server": "pnpm --filter backend start",
+    "start:backend": "pnpm --filter backend start",
     "start:client": "pnpm --filter frontend start"
   },
   "keywords": [],
